@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Collabode - Collaborative Coding in the Browser</title>
+<link href="css/editor_ejs.css" rel="stylesheet" type="text/css"/>
+<style>
+#editorpage {
+  max-width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+a { color: #345597; }
+#wizardcontainerbox p, #wizardcontainerbox h2 {
+  color: #444;
+  margin-left: 256px;
+  margin-right: 25%;
+}
+</style>
+</head>
+<body id="" class="fullwidth nosidebar">
+
+<div id="editorpage">
+
+<div id="editortop">
+  <div id="docbar">
+    <div id="docbarproject">
+      <a id="home" title="Home"></a>
+      <span>Collabode</span>
+    </div>
+    <div id="docbarfile"><span>Collaborative Coding in the Browser</span></div>
+
+    <div id="docbaruser">
+    </div>
+
+  </div>
+</div>
+
+
+<div id="docbaroverlay">
+  <div id="docbartools">
+  </div>
+</div>
+
+<div id="padmain">
+  <div id="padeditor">
+    <div id="wizardcontainerbox">
+      <p>Collaborating programmers should use a development environment designed specifically for collaboration, not the same one designed for solo programmers with a few collaborative processes and tools tacked on.</p>
+      <br/>
+      <h2><b>Collabode</b> is a web-based Java integrated development environment built to support close, synchronous collaboration between programmers.</h2>
+      <img src="figures/ui-codecomplete.png" width="512" alt="Syntax highlighting, error markers, code completion, ..." style="margin:1em 1em 1em 0; float:left;">
+      <br/>
+      <p>Collabode uses <a href="http://eclipse.org/">Eclipse</a> on the server-side to manage projects and power standard IDE services: continuous compilation, compiler errors and warnings, code formatting and refactoring, and execution.</p>
+      <p>On the client, Collabode uses <a href="http://etherpad.org/">EtherPad</a> to support collaboration between multiple simultaneous editors. Any number of programmers can open the same file simultaneously, and their concurrent changes are shared in near real-time to enable smooth collaboration.</p>
+      <br clear="both"/>
+      <img src="figures/tdpp-tests.png" width="512" alt="Passing and failing unit tests" style="margin:1em -256px 1em 1em; padding-right:25%; float:right;">
+      <p>The Collabode research project aims to demonstrate how a programming environment built to support specific structures of close collaboration can improve both the quality of the collaboration and the software produced.</p>
+      <br/>
+      <h2>Collabode: Collaborative Coding in the Browser, CHASE '11, <i>to appear</i></h2>
+      <h2><a href="http://dx.doi.org/10.1145/1833310.1833313">Test-Driven Roles for Pair Programming</a>, CHASE '10</h2>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
