@@ -15,6 +15,17 @@ a { color: #345597; }
   margin-left: 256px;
   margin-right: 25%;
 }
+#footer {
+  padding: 16px 11px;
+  font-size: 1.6em;
+}
+#footer a { color: #6780B1; }
+#footer p {
+  color: #888;
+  margin-left: 256px;
+  margin-top: 6px;
+  margin-right: 25%;
+}
 </style>
 </head>
 <body id="" class="fullwidth nosidebar">
@@ -44,21 +55,33 @@ a { color: #345597; }
 <div id="padmain">
   <div id="padeditor">
     <div id="wizardcontainerbox">
-      <p>Collaborating programmers should use a development environment designed specifically for collaboration, not the same one designed for solo programmers with a few collaborative processes and tools tacked on.</p>
+      <p>Collaborating programmers should use an integrated development environment designed specifically for collaboration &ndash; not the same one designed for solo programmers with a few collaboration tools tacked on.</p>
       <br/>
-      <h2><b>Collabode</b> is a web-based Java integrated development environment built to support close, synchronous collaboration between programmers.</h2>
+      <h2><b>Collabode</b> is a web-based Java IDE for close, synchronous collaboration between programmers.</h2>
       <img src="figures/ui-codecomplete.png" width="512" alt="Syntax highlighting, error markers, code completion, ..." style="margin:1em 1em 1em 0; float:left;">
       <br/>
-      <p>Collabode uses <a href="http://eclipse.org/">Eclipse</a> on the server-side to manage projects and power standard IDE services: continuous compilation, compiler errors and warnings, code formatting and refactoring, and execution.</p>
-      <p>On the client, Collabode uses <a href="http://etherpad.org/">EtherPad</a> to support collaboration between multiple simultaneous editors. Any number of programmers can open the same file simultaneously, and their concurrent changes are shared in near real-time to enable smooth collaboration.</p>
+      <p><i>&ldquo;Hey, could you help me out on this method?&rdquo;</i>
+        <br/>Send someone a Collabode URL and work together immediately, without any setup.</p>
+      <p><i>&ldquo;I&rsquo;ll write a test, you get started on the implementation.&rdquo;</i>
+        <br/>Work together on the same project without the overhead of version control.</p>
       <br clear="both"/>
       <img src="figures/tdpp-tests.png" width="512" alt="Passing and failing unit tests" style="margin:1em -256px 1em 1em; padding-right:25%; float:right;">
-      <p>The Collabode research project aims to demonstrate how a programming environment built to support specific structures of close collaboration can improve both the quality of the collaboration and the software produced.</p>
       <br/>
-      <h2>Collabode: Collaborative Coding in the Browser, CHASE '11, <i>to appear</i></h2>
-      <h2><a href="http://dx.doi.org/10.1145/1833310.1833313">Test-Driven Roles for Pair Programming</a>, CHASE '10</h2>
+      <h2><b>Technology</b></h2>
+      <p><a href="http://eclipse.org/">Eclipse</a> on the server to manages projects and powers standard IDE services: continuous compilation, compiler errors and warnings, code formatting and refactoring, and execution.</p>
+      <p><a href="http://etherpad.org/">EtherPad</a> enables collaboration between multiple simultaneous editors. Any number of programmers can work on the same file, and their concurrent changes are shared in near real-time.</p>
+      <br clear="both"/>
+      <h2><b>Publications</b></h2>
+      <p>Max Goldman, Greg Little, and Robert C. Miller. Collabode: Collaborative Coding in the Browser. CHASE '11, <i>to appear</i>.</p>
+      <p>Max Goldman and Robert C. Miller. <a href="http://dx.doi.org/10.1145/1833310.1833313">Test-Driven Roles for Pair Programming</a>. CHASE '10.</p>
     </div>
   </div>
+</div>
+
+<div id="footer">
+<p><a href="http://groups.csail.mit.edu/uid/"><b>User Interface Design Group</b></a> &middot; <a href="http://www.csail.mit.edu/">CSAIL</a> &middot; <a href="http://web.mit.edu/">MIT</a></p>
+<p>Supported in part by the National Science Foundation and Quanta Computer.</p>
+<p>Any opinions, findings, conclusions or recommendations expressed herein are those of the authors and do not necessarily reflect the views of the sponsoring organizations.</p>
 </div>
 
 </div>
