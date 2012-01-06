@@ -4,10 +4,14 @@
   padding-right: 16px;
 }
 a { color: #345597; }
-#wizardcontainerbox p, #wizardcontainerbox h2 {
+#wizardcontainerbox p, #wizardcontainerbox h2, #wizardcontainerbox table {
   color: #444;
   margin-left: 256px;
   margin-right: 25%;
+}
+table th, table td {
+  padding: 0.2em;
+  text-align: left;
 }
 #footer {
   padding: 16px 11px;

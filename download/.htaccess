@@ -1,0 +1,5 @@
+IndexOptions +SuppressHTMLPreamble +SuppressDescription +SuppressRules
+HeaderName HEADER.html
+ReadmeName FOOTER.html
+IndexIgnore . .. HEADER* FOOTER*
+AddIcon ../img/eclipse/plugin_obj.gif .jar
